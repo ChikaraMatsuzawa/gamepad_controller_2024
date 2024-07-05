@@ -1,0 +1,7 @@
+gamepad_controller_cpp_node:
+  ros__parameters:
+    throttle_axis_index: 2
+    brake_axis_index: 1
+    steering_axis_index: 0
+    shiftup_button_index: 1
+    shiftdown_button_index: 0
