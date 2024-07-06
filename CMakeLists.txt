@@ -14,9 +14,10 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(autoware_auto_control_msgs REQUIRED)
+find_package(autoware_auto_vehicle_msgs REQUIRED)
 
 add_executable(gamepad_controller_cpp_node src/gamepad_controller_cpp_node.cpp)
-ament_target_dependencies(gamepad_controller_cpp_node rclcpp std_msgs sensor_msgs autoware_auto_control_msgs)
+ament_target_dependencies(gamepad_controller_cpp_node rclcpp std_msgs sensor_msgs autoware_auto_control_msgs autoware_auto_vehicle_msgs)
 target_include_directories(gamepad_controller_cpp_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)

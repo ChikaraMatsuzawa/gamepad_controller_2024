@@ -3,7 +3,7 @@ gamepad_controller_cpp_node:
     throttle_axis_index: 5
     brake_axis_index: 2
     steering_axis_index: 0
-    shiftup_button_index: 0
-    shiftdown_button_index: 3
+    shiftup_button_index: 5
+    shiftdown_button_index: 4
     throttle_inverse: true
     brake_inverse: true
